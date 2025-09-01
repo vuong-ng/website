@@ -10,15 +10,16 @@
     "web developer"
   ],
   "author": {
-    "name": "Fawad Ali",
-    "email": "m.fawaadali98@gmail.com",
-    "url": "https://github.com/9inpachi"
+    "name": "Vuong Nguyen",
+    "email": "nguyen_v4@denison.edu"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -26,6 +27,7 @@
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
+    "gh-pages": "^6.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^5.0.1",
