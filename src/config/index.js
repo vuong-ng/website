@@ -123,7 +123,7 @@ const ProjectsConfig = {
                         conversational interface that makes historical documents as accessible as having
                         a natural conversation. Built specifically for the Heritage Square Foundation,
                         our platform combines cutting-edge AI with practical archival management needs.`,
-            image: "/images/archyX.png",
+            image: "/public/images/archyX.png",
             links: [
                 {
                     tooltip: 'See source',
@@ -144,7 +144,7 @@ const ProjectsConfig = {
                         utilizes Clerk API for secure user authentication,
                         offering a smooth and seamless user experience.`,
             // Image
-            image: '/images/flashycards.png',
+            image: '/public/images/flashycards.png',
             // Links to the project
             links: [
                 {
@@ -160,7 +160,7 @@ const ProjectsConfig = {
         {
             name: 'Java E-commerce system',
             icon: <WbIridescentIcon />,
-            image: "/images/java_ecommerce.png",
+            image: "/public/images/java_ecommerce.png",
             description: `A comprehensive Java-based e-commerce backend system supporting multi-role user management, product catalog, and transaction processing.`,
             links: [
                 {
@@ -174,7 +174,7 @@ const ProjectsConfig = {
         {
             name: 'Develop for Good | Students of Service (SOS) website',
             icon: <BusinessCenterIcon />,
-            image: "/images/sos.png",
+            image: "/public/images/sos.png",
             description: `Redesigned and developed the Students of Service website, increasing user engagement by 150%. 
                         Implemented a new site architecture with a shopping cart powered by Firebase and Stripe,
                         improving donation accessibility and boosting revenue by 30%.`,
@@ -189,7 +189,7 @@ const ProjectsConfig = {
         {
             name: 'Java Chat App Server',
             icon: <BusinessCenterIcon />,
-            image: "/images/java_chat.png",
+            image: "/public/images/java_chat.png",
             description: `A lightweight real-time chat application using Java WebSocket API, featuring a multithreaded server, client handler, and a simple Swing-based GUI for client-side interaction.
             This project showcases fundamental concepts in system design, concurrency, and network communication — ideal for demonstrating your distributed systems interest.`,
             links: [
@@ -203,7 +203,7 @@ const ProjectsConfig = {
         {
             name: 'Caching Proxy Server',
             icon: <BusinessCenterIcon />,
-            image: "/images/caching_proxy.png",
+            image: "/public/images/caching_proxy.png",
             description: `A CLI tool that starts a caching proxy server, 
                         it will forward requests to the actual server and
                         cache the responses. If the same request is made again,
@@ -227,7 +227,7 @@ const SystemProjectsConfig = {
         {
             name: 'Pandos Operating System',
             icon: <BusinessCenterIcon />,
-            image: `/images/pandos.png`,
+            image: `/public/images/pandos.png`,
             description: `Pandos is a major educational project that we built in our Operating System course.
              The Pandos operating system was originally inspired by the T.H.E. system outlined by Dijkstra back in 1968.
              Each layer i was an abstract machine to layer i + 1;
