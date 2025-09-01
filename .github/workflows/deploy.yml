@@ -32,7 +32,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out   # Next.js exports here by default
+          path: ./build   # Next.js exports here by default
 
   deploy:
     environment:
