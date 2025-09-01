@@ -25,9 +25,7 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: |
-          npm run build
-          npm run export   # Needed for Next.js static export
+        run: CI=false npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
