@@ -25,9 +25,7 @@ class AboutSection extends React.Component {
             <Section sectionHeader="about" headerIcon={<InfoIcon />} extraClass="about-section section-reverse">
 
                 <h4><HelpOutlineIcon /> Hi,</h4>
-                <p>
-                    An easily excited and a highly passionate full stack developer trying to support the world of open source with his little efforts. :)
-                </p>
+                
                 
                 <h4><CodeIcon /> programming</h4>
                 <p className="programming-icons">

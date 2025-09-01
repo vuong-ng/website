@@ -36,13 +36,13 @@ class Menu extends React.Component {
                 }
             }
         },
-        {
-            icon: <ComputerIcon />,
-            tooltip: 'projects',
-            action: () => {
-                this.scrollToSection('projects');
-            }
-        }
+        // {
+        //     icon: <ComputerIcon />,
+        //     tooltip: 'projects',
+        //     action: () => {
+        //         this.scrollToSection('projects');
+        //     }
+        // }
     ]
 
     // Functions

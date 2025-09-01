@@ -97,8 +97,8 @@ const CommonConfig = {
             link: 'mailto:nguyen_v4@denison.edu'
         },
         {
-            name: 'CV',
-            link: 'https://drive.google.com/file/d/1u8O73wyEt3g_O-FOLq8Kqqo-i-ekSbLq/view?usp=sharing',
+            name: 'Resume',
+            link: 'https://drive.google.com/drive/u/0/folders/1oVtbuUSRnhEdVJ_tEUZrCCaYZcUqvuji',
             icon: <Description />
         }
     ]
@@ -117,33 +117,13 @@ const ProjectsConfig = {
     // Projects
     projects: [
         {
-            // Name of the project
-            name: 'AI-powered flashcards generator SaaS',
-            // Icon of the project
-            icon: Icons['flashcard'],
-            // Description of the project
-            description: `This application automatically creates flashcards based on user input using AI, helping to streamline study sessions. It integrates Stripe API to handle payments and utilizes Clerk API for secure user authentication, offering a smooth and seamless user experience.`,
-            // Links to the project
-            links: [
-                {
-                    // Tooltip of the link
-                    tooltip: 'See source',
-                    // Link URL
-                    link: 'https://github.com/vuong-ng/flashcards_saas',
-                    // Icon of the button
-                    icon: Icons['code']
-                },
-                // {
-                //     tooltip: 'See app',
-                //     link: 'https://extensions.xwiki.org/xwiki/bin/view/Extension/InteractiveMapsApplication/',
-                //     icon: Icons['link']
-                // }
-            ]
-        },
-        {
-            name: 'Meal order tracking AI assistant',
+            name: 'ArchyX Agentic AI for Heritage Square Foundation (3rd prize Opportunity Hack)',
             icon: Icons['orderChatbot'],
-            description: 'This chatbot efficiently tracks and updates sushi order statuses. It leverages Google Dialogflow to manage customer interactions and integrates with a MySQL database to provide real-time information about order preparation. The backend is built using the FastAPI framework, ensuring smooth and fast API performance.',
+            description: `Archyx AI transforms Google Drive archive management by providing an intelligent, 
+                        conversational interface that makes historical documents as accessible as having
+                        a natural conversation. Built specifically for the Heritage Square Foundation,
+                        our platform combines cutting-edge AI with practical archival management needs.`,
+            image: "/images/archyX.png",
             links: [
                 {
                     tooltip: 'See source',
@@ -153,30 +133,85 @@ const ProjectsConfig = {
             ]
         },
         {
-            name: 'Rate My Professor RAG-powered assistant',
-            icon: <WbIridescentIcon />,
-            description: 'This application leverages Retrieval-Augmented Generation (RAG) by combining the extensive knowledge of a large language model (LLM) with specific, up-to-date data stored in a Pinecone-powered vector database. Using the OpenAI API, the app provides detailed, accurate information about professors and courses based on complex user queries. Built with Next.js and React, it ensures a smooth and responsive user experience.',
+            // Name of the project
+            name: 'AI-powered flashcards generator SaaS',
+            // Icon of the project
+            icon: Icons['flashcard'],
+            // Description of the project
+            description: `This application automatically creates flashcards based on user input using AI, helping to streamline study 
+                        sessions.
+                        It integrates Stripe API to handle payments and
+                        utilizes Clerk API for secure user authentication,
+                        offering a smooth and seamless user experience.`,
+            // Image
+            image: '/images/flashycards.png',
+            // Links to the project
             links: [
                 {
+                    // Tooltip of the link
                     tooltip: 'See source',
-                    link: 'https://github.com/vuong-ng/rmp-ai',
+                    // Link URL
+                    link: 'https://github.com/vuong-ng/flashcards_saas',
+                    // Icon of the button
                     icon: Icons['code']
-                },
-                // {
-                //     tooltip: 'See app',
-                //     link: 'https://hepsoftwarefoundation.org/phoenix/',
-                //     icon: Icons['link']
-                // }
+                }
             ]
         },
         {
-            name: 'Sentiment analysis on BestBuy Product Reviews',
-            icon: <BusinessCenterIcon />,
-            description: 'Utilized the Natural Language Toolkit (NLTK) to perform sentiment analysis, examining the correlation between product ratings, reviews, and price points of similar items. The goal was to enhance the accuracy of customer experience analysis, providing deeper insights into how pricing influences user feedback.',
+            name: 'Java E-commerce system',
+            icon: <WbIridescentIcon />,
+            image: "/images/java_ecommerce.png",
+            description: `A comprehensive Java-based e-commerce backend system supporting multi-role user management, product catalog, and transaction processing.`,
             links: [
                 {
-                    tooltip: 'See app',
-                    link: 'https://github.com/vuong-ng/python-pandas-reviews-analysis',
+                    tooltip: 'See source',
+                    link: 'https://github.com/vuong-ng/E-commerce-spring-shop',
+                    icon: Icons['code']
+                },
+                
+            ]
+        },
+        {
+            name: 'Develop for Good | Students of Service (SOS) website',
+            icon: <BusinessCenterIcon />,
+            image: "/images/sos.png",
+            description: `Redesigned and developed the Students of Service website, increasing user engagement by 150%. 
+                        Implemented a new site architecture with a shopping cart powered by Firebase and Stripe,
+                        improving donation accessibility and boosting revenue by 30%.`,
+            // links: [
+            //     {
+            //         tooltip: 'Develop for Good',
+            //         link: 'https://www.developforgood.org/',
+            //         icon: Icons['code']
+            //     }
+            // ]
+        },
+        {
+            name: 'Java Chat App Server',
+            icon: <BusinessCenterIcon />,
+            image: "/images/java_chat.png",
+            description: `A lightweight real-time chat application using Java WebSocket API, featuring a multithreaded server, client handler, and a simple Swing-based GUI for client-side interaction.
+            This project showcases fundamental concepts in system design, concurrency, and network communication — ideal for demonstrating your distributed systems interest.`,
+            links: [
+                {
+                    tooltip: 'See source',
+                    link: 'https://github.com/vuong-ng/Java-Chat-Server',
+                    icon: Icons['code']
+                }
+            ]
+        },
+        {
+            name: 'Caching Proxy Server',
+            icon: <BusinessCenterIcon />,
+            image: "/images/caching_proxy.png",
+            description: `A CLI tool that starts a caching proxy server, 
+                        it will forward requests to the actual server and
+                        cache the responses. If the same request is made again,
+                        it will return the cached response instead of forwarding the request to the server.`,
+            links: [
+                {
+                    tooltip: 'See source',
+                    link: 'https://github.com/vuong-ng/caching-proxy-server-nodejs',
                     icon: Icons['code']
                 }
             ]
@@ -184,12 +219,37 @@ const ProjectsConfig = {
     ]
 };
 
+const SystemProjectsConfig = {
+    name: 'system projects',
+    headerIcon: <BusinessCenterIcon />,
+    extraClass: '',
+    projects: [
+        {
+            name: 'Pandos Operating System',
+            icon: <BusinessCenterIcon />,
+            image: `/images/pandos.png`,
+            description: `Pandos is a major educational project that we built in our Operating System course.
+             The Pandos operating system was originally inspired by the T.H.E. system outlined by Dijkstra back in 1968.
+             Each layer i was an abstract machine to layer i + 1;
+             successively building up the capabilities of the system for each new layer to build upon.
+            In this project we built 7 Levels of Pandos`,
+            links: [
+                {
+                    tooltip: 'See source',
+                    link: 'https://github.com/vuong-ng/PandOS',
+                    icon: Icons['code']
+                }
+            ]
+        }
+    ]
+}
+
 /** Config for sections */
 const CustomSectionsConfig = [
     // PROJECTS SECTION
     {
         // Name of the section
-        name: 'projects',
+        name: 'web app projects',
         // Icon next to the header title. The headerIcon can use any SVG icon, material icons are preferred
         // See https://material-ui.com/components/material-icons/
         headerIcon: <ComputerIcon />,
@@ -201,24 +261,59 @@ const CustomSectionsConfig = [
         // Content inside the section
         content: (
             <>
-                {ProjectsConfig.projects.map((project, index) => {
-                    return (
-                        <div key={'project-' + index}>
-                            <h3 style={{ fontSize: '1.4rem' }}>{project.icon} {project.name}</h3>
-                            <p>{project.description}</p>
-                            <div style={{ textAlign: 'right' }}>
-                                {project.links.map((link, linkIndex) => {
-                                    return (
-                                        <CircleButton key={'project-link-' + index + linkIndex} link={link.link} 
-                                            target="_blank" tooltip={link.tooltip} size={1.4}>
-                                            {link.icon}
-                                        </CircleButton>
-                                    );
-                                })}
+                    {ProjectsConfig.projects.map((project, index) => {
+                        return (
+                            <div key={'project-' + index}>
+                                <h3 style={{ fontSize: '1.4rem' }}>{project.icon} {project.name}</h3>
+                                <p>{project.description}</p>
+                                {/* Add image below the description if project.image exists */}
+                                {project.image && (
+                                    <div style={{ textAlign: 'center', margin: '1rem 0', minHeight: '2.5em',  marginBottom: '1em' }}>
+                                        <img src={project.image} alt={project.name + ' screenshot'} style={{ maxWidth: '100%', borderRadius: '8px' }} />
+                                    </div>
+                                )}
+                                <div style={{ textAlign: 'right' }}>
+                                    {project.links && project.links.map((link, linkIndex) => {
+                                        return (
+                                            <CircleButton key={'project-link-' + index + linkIndex} link={link.link} 
+                                                target="_blank" tooltip={link.tooltip} size={1.4}>
+                                                {link.icon}
+                                            </CircleButton>
+                                        );
+                                    })}
+                                </div>
                             </div>
+                        );
+                    })}
+            </>
+        )
+    },
+    {
+        name: 'system projects',
+        headerIcon: <ComputerIcon />,
+        extraClass: '',
+        notInMenu: false,
+        content: (
+            <>
+                {SystemProjectsConfig.projects.map((project, index) => (
+                    <div key={'system-project-' + index}>
+                        <h3 style={{ fontSize: '1.4rem' }}>{project.icon} {project.name}</h3>
+                        <p>{project.description}</p>
+                        {project.image && (
+                            <div style={{ textAlign: 'center', margin: '1rem 0' }}>
+                                <img src={project.image} alt={project.name + ' screenshot'} style={{ maxWidth: '100%', borderRadius: '8px' }} />
+                            </div>
+                        )}
+                        <div style={{ textAlign: 'right', minHeight: '2.5em', marginBottom: '1em' }}>
+                            {project.links && project.links.map((link, linkIndex) => (
+                                <CircleButton key={'system-project-link-' + index + linkIndex} link={link.link}
+                                    target="_blank" tooltip={link.tooltip} size={1.4}>
+                                    {link.icon}
+                                </CircleButton>
+                            ))}
                         </div>
-                    );
-                })}
+                    </div>
+                ))}
             </>
         )
     },
@@ -231,21 +326,20 @@ const CustomSectionsConfig = [
             <>
                 <h4>{Icons['helpoutline']} who am i?</h4>
                 <p>
-                    An aspiring full-stack engineer with background in Mathematics and Data Analytics. 
+                    A software engineer with background in both fullstack development and system engineering. 
                     <br></br>
-                    Nothing excites me more than bringing ideas to life through code. From crafting innovative solutions to exploring the latest in AI, I’m learning and pushing my skills to the next level! :)
+                    Nothing excites me more than bringing ideas to life through code. From crafting innovative solutions to exploring the latest in AI. Also love going to hackathon! :)
                 </p>
 
                 <h4>{Icons['code']} programming</h4>
                 <p className="programming-icons">
                     {/* {Icons['java']} */}
                     {Icons['cpp']}
+                    {Icons['java']}
                     {Icons['python']}
                     {/* {Icons['typescript']} */}
                     {Icons['javascript']}
                 </p>
-
-                <h4>{Icons['web']} web</h4>
                 <p className="programming-icons">
                     {/* {Icons['graphql']} */}
                     {Icons['mysql']}
