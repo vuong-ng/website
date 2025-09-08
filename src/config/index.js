@@ -98,7 +98,7 @@ const CommonConfig = {
         },
         {
             name: 'Resume',
-            link: 'https://drive.google.com/drive/u/0/folders/1oVtbuUSRnhEdVJ_tEUZrCCaYZcUqvuji',
+            link: 'https://drive.google.com/file/d/1L_0zokDooV6BeOaOZFNKo0kmaWjCElz3/view?usp=sharing',
             icon: <Description />
         }
     ]
