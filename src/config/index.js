@@ -127,7 +127,7 @@ const ProjectsConfig = {
             links: [
                 {
                     tooltip: 'See source',
-                    link: 'https://github.com/vuong-ng/meal_order_chatbot',
+                    link: 'https://github.com/2025-Arizona-Opportunity-Hack-Summer/GenZents-HeritageSquareFounda',
                     icon: Icons['code']
                 }
             ]
